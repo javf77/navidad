@@ -1,0 +1,31 @@
+html{
+  font-family:Impact;
+  font-size:30px;
+  color:white;
+  background-color:black;
+  overflow-x:hidden;
+}
+
+.header{
+    width:;
+    height:;
+    background:;
+    position:relative;
+    animation:TestMove 10s infinite; /*IE*/
+    -moz-animation:TestMove 10s infinite; /*FireFox*/
+    -webkit-animation:TestMove 10s infinite; /*Chrome, Safari*/
+}
+@keyframes TestMove{
+    from {right:-100%;}
+    to {right:0%;}
+}
+@-moz-keyframes TestMove{
+    from {right:-100%;}
+    to {right:0%;}
+}
+@-webkit-keyframes TestMove{
+    from {right:-100%;}
+    to {right:0%;}
+}
+.main{}
+.footer{}
